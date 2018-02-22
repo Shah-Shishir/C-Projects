@@ -12,7 +12,7 @@ namespace ReferenceType
 
             Console.WriteLine("___ Object Type ___");
             object obj = 20; /// Boxing
-			Console.WriteLine(obj); /// Type-checking occurs at compile time
+	    Console.WriteLine(obj); /// Type-checking occurs at compile time
             int x = (int)(obj); /// Unboxing
             Console.WriteLine("After Unboxing : {0}", x);
             obj = 2.34;
@@ -24,7 +24,7 @@ namespace ReferenceType
 
             Console.WriteLine("___ Dynamic Type ___");
             dynamic d = 20; /// Type-checking occurs at run time
-			Console.WriteLine(d);
+	    Console.WriteLine(d);
             d = 5.7798;
             Console.WriteLine(d);
             d = 'u';
